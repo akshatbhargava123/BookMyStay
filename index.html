@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book My Stay</title>
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Raleway", Arial, Helvetica, sans-serif
+        }
+
+        div {}
+
+        body {
+            margin: 0px;
+        }
+
+        .bgImg {
+            background: url('https://www.w3schools.com/w3images/hotel.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        .header {
+            background-color: #F86A6A;
+            height: 60px;
+            text-shadow: 4px 4px 5px rgb(245, 57, 57);
+            padding: 1%;
+            color: white
+        }
+
+        .footer {
+            background-color: #F86A6A;
+            height: 160px;
+            text-shadow: 4px 4px 5px rgb(245, 57, 57);
+            padding: 1%;
+            color: white
+        }
+
+        .btn {
+            border: none;
+            color: white;
+            padding: 20px 28px;
+            cursor: pointer;
+        }
+
+        .danger {
+            background-color: #f44336;
+            transition: background 1s;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+        }
+
+        .danger:hover {
+            background: #da190b;
+        }
+
+        .pad {
+            padding: 20px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .card-dark {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background: rgba(243, 205, 205, 0.3);
+        }
+
+        .card {
+            display: -webkit-inline-box;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition: background 0.5s;
+            text-shadow: 4px 4px 5px red;
+            background: rgba(243, 205, 205, 0.3);
+        }
+
+        .card:hover {
+            background: rgba(144, 79, 79, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header" class="header">
+        <!--  style="position:fixed;width:100%" -->
+        <br />
+        <center>
+            <a class="btn danger" href="#home">Home</a>
+            <a class="btn danger" href="#room">Rooms</a>
+            <a class="btn danger" href="#about">About</a>
+            <a class="btn danger" href="#contact">Contact</a>
+            <a class="btn danger" href="#book">Book Now</a>
+        </center>
+    </div>
+
+
+    <div class="pad"></div>
+
+    <div id="home" class="bgImg">
+        <div class="card pad" style="margin-left: 20%;">
+            <h1 style="color:#f44336;font-size:10rem" class="pad">
+                <b>Vistara Hotel</b>
+            </h1>
+        </div>
+    </div>
+
+    <div class="pad"></div>
+
+    <center>
+        <div class="header" id="room">
+            <h1>Rooms</h1>
+        </div>
+        <div class="card-dark">
+            <div>
+                <div class="pad">
+                    <img src="https://images.oyoroomscdn.com/uploads/hotel_image/13898/xlarge/fd9da658af1d27a5.jpg" width="500px" />
+                </div>
+                <p style="font-style: italic">
+                    <u>Green Park hotel</u>
+                </p>
+                <div class="pad">
+                    <a class="btn danger" href="#book">Book this now</a>
+                </div>
+            </div>
+            <div>
+                <div class="pad">
+                    <img src="https://ritzcarlton-h.assetsadobe.com/is/image/content/dam/the-ritz-carlton/hotels/usa-and-canada/california/half-moon-bay/guest-rooms/RCHALFM_00390.png?$XlargeViewport100pct$"
+                        width="500px" />
+                </div>
+                <p style="font-style: italic">
+                    <u>Zotel Beauty Hotel</u>
+                </p>
+                <div class="pad">
+                    <a class="btn danger" href="#book">Book this now</a>
+                </div>
+            </div>
+            <br/>
+        </div>
+    </center>
+
+    <div class="pad"></div>
+
+    <center>
+        <div id="about" class="header">
+            <h1>About</h1>
+        </div>
+        <div class="card-dark">
+            <div class="pad">
+                <h1>WELCOME TO FAIRMONT HOTELS & RESORTS</h1>
+                <p class="pad" style="font-style: italic">
+                    At Fairmont, our passion is to connect our guests to the very best of our destinations. From the beaches of Hawaii and Bermuda
+                    to the deserts of the United Arab Emirates to the heart of London, our hotels offer guests extraordinary
+                    places, created by combining unique architecture and structure, expressive decor and artistry, and magnificent
+                    features. Add great service, and the result is an unforgettable guest experience. We’re proud to welcome
+                    you to our collection, which includes some of the most iconic hotels in the world, including The Plaza
+                    in New York, The Savoy in London, Fairmont Peace Hotel in Shanghai and Fairmont Le Château Frontenac
+                    in Québec City. We invite you to think of these, or any of our 70 hotels around the world, as your home
+                    base for all of your adventures. Many of our hotels were among the first buildings to be erected in young
+                    cities across North America; in these places, we can boast that our communities literally grew up around
+                    us. Today, we have added many modern city-center properties to our collection, with core locations from
+                    Barcelona to Beijing that allow you to join the bustle of the city and enjoy the culture, flavors and
+                    sounds of local life. And, if urban excitement isn’t on your itinerary, our resorts welcome you to some
+                    of the most breathtaking and pristine areas in the world, where you can bask on an inviting beach, challenge
+                    yourself on a stunning golf course and feel the rush of fresh powder on an exhilarating ski hill. While
+                    we aim to give you an authentic experience of the locale whenever you stay with us, we also guarantee
+                    consistent high standards throughout our collection of hotels and resorts. Contemporary amenities and
+                    timeless elegance—inspired by our unique destinations—are reflected throughout every Fairmont guest room.
+                    Features such as our Fairmont President’s Club recognition and preferences program, our Fairmont Gold
+                    exclusive lifestyle experience and our business centers are all ready for your convenience. Make Fairmont
+                    your personal gateway to exploring the world’s most extraordinary places—and to having your most memorable
+                    experiences.
+                </p>
+            </div>
+            <br/>
+        </div>
+    </center>
+
+    <div class="pad"></div>
+
+    <center>
+        <div id="contact" class="header">
+            <h1>Contact</h1>
+        </div>
+        <div class="card-dark">
+            <div class="pad">
+                <h1>TOLL FREE ROOM RESERVATIONS</h1>
+                <p class="pad" style="font-style: italic">
+                    1-800-257-7544 (CANADA & U.S.) 8:00 a.m. to 8:00 p.m, (excluding declared Holidays & Sunday).​
+                </p>
+                <h1>ATM Customer Care toll free number</h1>
+                <p class="pad" style="font-style: italic">
+                    1800 425 2440 (For ATM/ debit card, mobile/ internet/ SMS banking related grievances.)​
+                </p>
+                <h1>Toll Free Call Centre</h1>
+                <p class="pad" style="font-style: italic">
+                    1800-11-2011 (For International Mails) For quick help on regarding Queries
+                </p>
+            </div>
+            <br/>
+        </div>
+    </center>
+
+    <div class="pad"></div>
+
+    <center>
+        <div class="header" id="book">
+            <h1>Book Now</h1>
+        </div>
+        <div class="card-dark">
+            <div class="pad">
+                <label>Check In</label>
+                <input type="text" placeholder="DD/MM/YYYY">
+            </div>
+            <div class="pad">
+                <label>Check Out</label>
+                <input type="text" placeholder="DD/MM/YYYY">
+            </div>
+            <div class="pad">
+                <label>Adults</label>
+                <input type="number" placeholder="1">
+            </div class="pad">
+            <div class="pad">
+                <label>Kids</label>
+                <input type="number" placeholder="0">
+            </div>
+            <div class="pad">
+                <a class="btn danger">Search</a>
+            </div>
+            <br/>
+        </div>
+    </center>
+
+    <div class="pad"></div>
+
+    <div class="footer">
+        <h1 class="pad">Stay up to date</h1>
+        <p class="pad" style="font-style: italic">
+            © Hotel Booking Site managed by Aashi Foundation — Code of Conduct | Sponsorship Guidelines
+            <a href="#header" style="margin-left: 250px;">goto top</a>
+        </p>
+    </div>
+
+</body>
+
+</html>
